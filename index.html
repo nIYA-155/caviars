@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke CSS -->
+</head>
+<body>
+
+<header>
+    <div class="logo">Farmers Community</div>
+    <nav>
+        <ul>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="#" class="signup-btn">Sign Up</a></li> <!-- Tombol Sign Up -->
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="widget">
+        <h2>Weather Information</h2>
+        <p id="weather">Loading weather data...</p> <!-- Tempat untuk menampilkan data cuaca -->
+    </div>
+    
+    <div class="widget">
+        <h2>Soil Moisture</h2>
+        <p id="soil-moisture">Loading soil moisture data...</p> <!-- Tempat untuk menampilkan kelembapan tanah -->
+    </div>
+
+    <div class="widget">
+        <h2>Community Peek</h2>
+        <div class="community-posts" id="community-posts"> <!-- Tempat untuk menampilkan postingan komunitas -->
+            <p>Loading community posts...</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Farmers Community. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script> <!-- Link ke JavaScript -->
+</body>
+</html>
